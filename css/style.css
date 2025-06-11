@@ -78,7 +78,7 @@ body {
   flex: 1 1 200px;
   background: #fffaf6;
   border-radius: 1rem;
-  padding: 0 0 1.5rem 0;
+  padding: 0;
   text-align: center;
   margin: 0.5rem 0;
   box-shadow: 0 1px 6px #e9c7c0;
@@ -89,6 +89,7 @@ body {
   overflow: hidden;
   min-height: 410px;
   max-width: 340px;
+  justify-content: flex-start;
 }
 .product-image-wrapper {
   width: 100%;
@@ -131,6 +132,7 @@ body {
 .product p {
   color: #a98b8b;
   font-size: 0.95rem;
+  margin-bottom: 0;
 }
 .contact form {
   display: flex;
@@ -192,4 +194,7 @@ body {
   .hero {
     padding: 3.5rem 1rem 3rem 1rem;
   }
+}
+.berry-bliss-img img {
+  object-position: center 80%;
 } 
